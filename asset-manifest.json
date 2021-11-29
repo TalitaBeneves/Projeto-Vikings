@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Projeto-Vikings.git/static/css/main.9a0302ae.chunk.css",
+    "main.js": "/Projeto-Vikings.git/static/js/main.cf10d688.chunk.js",
+    "main.js.map": "/Projeto-Vikings.git/static/js/main.cf10d688.chunk.js.map",
+    "runtime-main.js": "/Projeto-Vikings.git/static/js/runtime-main.d62a44ab.js",
+    "runtime-main.js.map": "/Projeto-Vikings.git/static/js/runtime-main.d62a44ab.js.map",
+    "static/js/2.7d856288.chunk.js": "/Projeto-Vikings.git/static/js/2.7d856288.chunk.js",
+    "static/js/2.7d856288.chunk.js.map": "/Projeto-Vikings.git/static/js/2.7d856288.chunk.js.map",
+    "index.html": "/Projeto-Vikings.git/index.html",
+    "static/css/main.9a0302ae.chunk.css.map": "/Projeto-Vikings.git/static/css/main.9a0302ae.chunk.css.map",
+    "static/js/2.7d856288.chunk.js.LICENSE.txt": "/Projeto-Vikings.git/static/js/2.7d856288.chunk.js.LICENSE.txt",
+    "static/media/thumb.8fa9176b.jpg": "/Projeto-Vikings.git/static/media/thumb.8fa9176b.jpg",
+    "static/media/hero.css": "/Projeto-Vikings.git/static/media/vk-4kjpg.a880c5fb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d62a44ab.js",
+    "static/js/2.7d856288.chunk.js",
+    "static/css/main.9a0302ae.chunk.css",
+    "static/js/main.cf10d688.chunk.js"
+  ]
+}
