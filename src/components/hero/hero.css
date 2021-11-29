@@ -1,0 +1,22 @@
+.hero {
+  align-items: center;
+  font-size: 5rem;
+  width: 100vw;
+  height: 100%;
+  padding: 30px;
+  color: white;
+  background-image: url(../../img/vk-4kjpg.jpg);
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 15rem;
+  color: rgb(0, 0, 0);
+}
+
+.hero p{
+  font-size: 1.5rem;
+  color: rgb(115, 134, 141)
+}
