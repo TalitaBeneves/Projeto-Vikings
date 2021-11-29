@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@400;500&family=Noto+Serif&family=Rubik&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family:  'Noto Serif', serif;
+  font-weight: 500;
+  background-color: rgb(34, 34, 34);  
+}
+
+::-webkit-scrollbar {
+	width:10px;
+	height: 10px;
+ }
+
+ ::-webkit-scrollbar-track {
+	background:#333;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #2e9dd8;
+}
+
+h1 {
+  color: rgba(109, 124, 130, 1);
+
+}
