@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Projeto-Vikings/static/css/main.6b296722.chunk.css",
-    "main.js": "/Projeto-Vikings/static/js/main.cf10d688.chunk.js",
-    "main.js.map": "/Projeto-Vikings/static/js/main.cf10d688.chunk.js.map",
+    "main.css": "/Projeto-Vikings/static/css/main.dc1f3e76.chunk.css",
+    "main.js": "/Projeto-Vikings/static/js/main.e261e39c.chunk.js",
+    "main.js.map": "/Projeto-Vikings/static/js/main.e261e39c.chunk.js.map",
     "runtime-main.js": "/Projeto-Vikings/static/js/runtime-main.808fd967.js",
     "runtime-main.js.map": "/Projeto-Vikings/static/js/runtime-main.808fd967.js.map",
-    "static/js/2.7d856288.chunk.js": "/Projeto-Vikings/static/js/2.7d856288.chunk.js",
-    "static/js/2.7d856288.chunk.js.map": "/Projeto-Vikings/static/js/2.7d856288.chunk.js.map",
+    "static/js/2.f7d32991.chunk.js": "/Projeto-Vikings/static/js/2.f7d32991.chunk.js",
+    "static/js/2.f7d32991.chunk.js.map": "/Projeto-Vikings/static/js/2.f7d32991.chunk.js.map",
     "index.html": "/Projeto-Vikings/index.html",
-    "static/css/main.6b296722.chunk.css.map": "/Projeto-Vikings/static/css/main.6b296722.chunk.css.map",
-    "static/js/2.7d856288.chunk.js.LICENSE.txt": "/Projeto-Vikings/static/js/2.7d856288.chunk.js.LICENSE.txt",
-    "static/media/thumb.8fa9176b.jpg": "/Projeto-Vikings/static/media/thumb.8fa9176b.jpg",
+    "static/css/main.dc1f3e76.chunk.css.map": "/Projeto-Vikings/static/css/main.dc1f3e76.chunk.css.map",
+    "static/js/2.f7d32991.chunk.js.LICENSE.txt": "/Projeto-Vikings/static/js/2.f7d32991.chunk.js.LICENSE.txt",
+    "static/media/person.css": "/Projeto-Vikings/static/media/ragnar.7c18f387.jpg",
     "static/media/hero.css": "/Projeto-Vikings/static/media/vk-4kjpg.a880c5fb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.808fd967.js",
-    "static/js/2.7d856288.chunk.js",
-    "static/css/main.6b296722.chunk.css",
-    "static/js/main.cf10d688.chunk.js"
+    "static/js/2.f7d32991.chunk.js",
+    "static/css/main.dc1f3e76.chunk.css",
+    "static/js/main.e261e39c.chunk.js"
   ]
 }
