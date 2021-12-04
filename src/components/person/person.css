@@ -1,0 +1,505 @@
+
+.logo img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 130px;
+  margin-left: 46.2%;
+  margin-top: -20px;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+ h1{
+   margin-top: 30px;
+   margin-left: 40px;
+   background-image: var(--grad-color);
+   color: black;
+   background-clip: text;
+   -webkit-background-clip: text;
+   /* Adicionado: */
+   -webkit-text-fill-color: transparent;
+ 
+}
+
+/* ********FLOKI******* */
+
+.card {
+  align-items: center;
+  color: var(--clr-neutral-100);
+  background-image: url(../../img/floki.jpg);
+  background-size: cover;
+  padding: 10rem 0 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: var(--padding);
+  height: 300px;
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% / 1)
+  );
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -2;
+  width: calc(100% + var(--padding));
+  background: var(--clr-neutral-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+.card:hover .card-title::after,
+.card:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+.card-body {
+  color: rgb(255, 255, 255 / 0.75);
+}
+
+@media (hover) {
+  .card-content {
+   transform: translateY(65%);
+   transition: transform 500ms ease;
+  }
+  
+  .card:hover .card-content, 
+  .card:focus-within
+  .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  
+  .card:focus-within .card-content {
+    transition-duration: 0ms;
+  }
+  
+  .card-content > *:not(.card-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+  
+  .card:hover .card-content > *:not(.card-title),
+  .card-focus-within .card-content  > *:not(.card-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+  
+  .card:hover .card-content > * {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card-title::after {
+    transform: scaleX(0);
+  }
+}
+
+
+/* ********IVAR******* */
+
+.card_ivar {
+  color: var(--clr-neutral-100);
+  background-image: url(../../img/ivar.jpg);
+  background-size: cover;
+  padding: 10rem 0 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card_ivar:hover,
+.card_ivar:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: var(--padding);
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% / 1)
+  );
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -2;
+  width: calc(100% + var(--padding));
+  background: var(--clr-neutral-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+.card_ivar:hover .card-title::after,
+.card_ivar:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+.card-body {
+  color: rgb(255, 255, 255 / 0.75);
+}
+
+@media (hover) {
+  .card-content {
+   transform: translateY(65%);
+   transition: transform 500ms ease;
+  }
+  
+  .card_ivar:hover .card-content, 
+  .card_ivar:focus-within
+  .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  
+  .card_ivar:focus-within .card-content {
+    transition-duration: 0ms;
+  }
+  
+  .card-content > *:not(.card-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+  
+  .card_ivar:hover .card-content > *:not(.card-title),
+  .card_ivar-focus-within .card-content  > *:not(.card-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+  
+  .card_ivar:hover .card-content > * {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card-title::after {
+    transform: scaleX(0);
+  }
+}
+/* ********BJOR******* */
+
+.card_bjor {
+  color: var(--clr-neutral-100);
+  background-image: url(../../img/bjor.jpg);
+  background-size: cover;
+  padding: 10rem 0 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card_bjor:hover,
+.card_bjor:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: var(--padding);
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% / 1)
+  );
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -2;
+  width: calc(100% + var(--padding));
+  background: var(--clr-neutral-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+.card_bjor:hover .card-title::after,
+.card_bjor:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+.card-body {
+  color: rgb(255, 255, 255 / 0.75);
+}
+
+@media (hover) {
+  .card-content {
+   transform: translateY(65%);
+   transition: transform 500ms ease;
+  }
+  
+  .card_bjor:hover .card-content, 
+  .card_bjor:focus-within
+  .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  
+  .card_bjor:focus-within .card-content {
+    transition-duration: 0ms;
+  }
+  
+  .card-content > *:not(.card-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+  
+  .card_bjor:hover .card-content > *:not(.card-title),
+  .card_bjor-focus-within .card-content  > *:not(.card-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+  
+  .card_bjor:hover .card-content > * {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card-title::after {
+    transform: scaleX(0);
+  }
+}
+
+
+/* ********RAGNAR******* */
+
+.card_ragnar {
+  color: var(--clr-neutral-100);
+  background-image: url(../../img/ragnar.jpg);
+  background-size: cover;
+  padding: 10rem 0 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card_ragnar:hover,
+.card_ragnar:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: var(--padding);
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% / 1)
+  );
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -2;
+  width: calc(100% + var(--padding));
+  background: var(--clr-neutral-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+.card_ragnar:hover .card-title::after,
+.card_ragnar:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+.card-body {
+  color: rgb(255, 255, 255 / 0.75);
+}
+
+@media (hover) {
+  .card-content {
+   transform: translateY(65%);
+   transition: transform 500ms ease;
+  }
+  
+  .card_ragnar:hover .card-content, 
+  .card_ragnar:focus-within
+  .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  
+  .card_ragnar:focus-within .card-content {
+    transition-duration: 0ms;
+  }
+  
+  .card-content > *:not(.card-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+  
+  .card_ragnar:hover .card-content > *:not(.card-title),
+  .card_ragnar-focus-within .card-content  > *:not(.card-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+  
+  .card_ragnar:hover .card-content > * {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card-title::after {
+    transform: scaleX(0);
+  }
+}
+
+/* ********LAGERTHA******* */
+
+.card_lagertha {
+  color: var(--clr-neutral-100);
+  background-image: url(../../img/LAGERTHA.png);
+  background-size: cover;
+  padding: 10rem 0 0;
+  margin-left: 40px;
+  margin-bottom: 20px;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+.card_lagertha:hover,
+.card_lagertha:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: var(--padding);
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% / 1)
+  );
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -2;
+  width: calc(100% + var(--padding));
+  background: var(--clr-neutral-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+.card_lagertha:hover .card-title::after,
+.card_lagertha:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+.card-body {
+  color: rgb(255, 255, 255 / 0.75);
+}
+
+@media (hover) {
+  .card-content {
+   transform: translateY(65%);
+   transition: transform 500ms ease;
+  }
+  
+  .card_lagertha:hover .card-content, 
+  .card_lagertha:focus-within
+  .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  
+  .card_lagertha:focus-within .card-content {
+    transition-duration: 0ms;
+  }
+  
+  .card-content > *:not(.card-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+  
+  .card_lagertha:hover .card-content > *:not(.card-title),
+  .card_lagertha-focus-within .card-content  > *:not(.card-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+  
+  .card_lagertha:hover .card-content > * {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card-title::after {
+    transform: scaleX(0);
+  }
+}
+

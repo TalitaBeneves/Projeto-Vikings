@@ -1,5 +1,5 @@
 :root {
-  --color: rgb(0, 255, 200);
+  --color: rgb(67, 184, 155);
 }
 
 .btn {
@@ -7,7 +7,7 @@
   border-radius: 4px;
   outline: none;
   border: none;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   color: #222;
   background-color: var(--color);

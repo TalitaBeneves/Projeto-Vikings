@@ -25,7 +25,12 @@ body{
 	background: #2e9dd8;
 }
 
-h1 {
-  color: rgba(109, 124, 130, 1);
 
+:root {
+    --clr-neutral-900: hsl(207, 19%, 9%);
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-400: hsl(177, 90%, 61%);
+    --grad-color: linear-gradient(90deg, rgba(187, 167, 187, 1) 0%, rgba(140, 124, 132, 0.93) 43%, rgba(140, 34, 34, 1) 100%);
+  
+    --padding: 1.5rem;
 }

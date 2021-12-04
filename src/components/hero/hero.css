@@ -1,22 +1,47 @@
 .hero {
   align-items: center;
-  font-size: 5rem;
   width: 100vw;
   height: 100%;
   padding: 30px;
-  color: white;
   background-image: url(../../img/vk-4kjpg.jpg);
   background-size: cover;
+  color: wheat;
+}
+
+.h1_color {
+  color: rgb(47, 159, 163);
 }
 
 .hero h1 {
   font-size: 4rem;
   font-weight: 700;
-  margin-top: 15rem;
-  color: rgb(0, 0, 0);
+  margin-top: 100px;
+  color: rgb(192, 194, 194);
 }
 
 .hero p{
   font-size: 1.5rem;
-  color: rgb(115, 134, 141)
+  color: rgb(115, 134, 141);
+  margin: 20px 0px;
+  margin-bottom: 5rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social ul,
+.social li,
+.social a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 42%;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: aqua;
 }

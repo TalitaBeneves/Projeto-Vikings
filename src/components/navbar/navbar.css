@@ -1,10 +1,11 @@
 .navbar {
   background: rgb(27, 27, 27);  
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .navbar-logo {
@@ -17,7 +18,7 @@
 }
 
 .navbar-logo:hover {
-  color: #ee0e0e;
+  color: #0ebaee;
 }
 
 .nav-menu {
@@ -46,6 +47,7 @@
 .nav-links:hover {
   background-color: #2dbdbd;
   color: #242222;
+  font-weight: bold;
   border-radius: 4px;
   transition: all 0.3s ease-out;
 }
@@ -70,7 +72,7 @@
     padding: 0%;
     width: 100%;
     position: absolute;
-    top: 80px;
+    top: 90px;
     left: -100%;
     opacity: 1;
     transition: all 0.3s ease;
