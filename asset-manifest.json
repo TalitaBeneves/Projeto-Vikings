@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Projeto-Vikings/static/css/main.3065299f.chunk.css",
-    "main.js": "/Projeto-Vikings/static/js/main.b359b2f2.chunk.js",
-    "main.js.map": "/Projeto-Vikings/static/js/main.b359b2f2.chunk.js.map",
+    "main.js": "/Projeto-Vikings/static/js/main.1b9df626.chunk.js",
+    "main.js.map": "/Projeto-Vikings/static/js/main.1b9df626.chunk.js.map",
     "runtime-main.js": "/Projeto-Vikings/static/js/runtime-main.808fd967.js",
     "runtime-main.js.map": "/Projeto-Vikings/static/js/runtime-main.808fd967.js.map",
     "static/js/2.f273e0d0.chunk.js": "/Projeto-Vikings/static/js/2.f273e0d0.chunk.js",
@@ -14,7 +14,7 @@
     "static/media/Floki.6a272c19.m4v": "/Projeto-Vikings/static/media/Floki.6a272c19.m4v",
     "static/media/Ivar.40169fcb.m4v": "/Projeto-Vikings/static/media/Ivar.40169fcb.m4v",
     "static/media/person.css": "/Projeto-Vikings/static/media/ragnar.7c18f387.jpg",
-    "static/media/Largetha.0420e1e8.m4v": "/Projeto-Vikings/static/media/Largetha.0420e1e8.m4v",
+    "static/media/Largetha-1-1.9979a16e.m4v": "/Projeto-Vikings/static/media/Largetha-1-1.9979a16e.m4v",
     "static/media/hero.css": "/Projeto-Vikings/static/media/thumb.8fa9176b.jpg",
     "static/media/about.css": "/Projeto-Vikings/static/media/vikings-logo.ddac670b.jpg"
   },
@@ -22,6 +22,6 @@
     "static/js/runtime-main.808fd967.js",
     "static/js/2.f273e0d0.chunk.js",
     "static/css/main.3065299f.chunk.css",
-    "static/js/main.b359b2f2.chunk.js"
+    "static/js/main.1b9df626.chunk.js"
   ]
 }
