@@ -5,17 +5,19 @@ import Hero from '../src/components/hero/Hero';
 import Person from '../src/components/person/Person';
 import About from "./components/about/About";
 import Trailer from "./components/trailer/Trailer";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      {/* <Navbar />
       <hr/>
       <Hero />
       <hr/>
       <Person /> <br />
-      <About />
-      <Trailer />
+      <About /> <br />
+      <Trailer /> <br /> */}
+      <Footer />
     </Router>
   );
 }

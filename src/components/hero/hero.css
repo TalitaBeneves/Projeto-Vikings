@@ -8,14 +8,12 @@
   color: wheat;
 }
 
-.h1_color {
-  color: rgb(47, 159, 163);
-}
 
-.hero h1 {
+.hero h2 {
+  margin-top: 100px;
   font-size: 4rem;
   font-weight: 700;
-  margin-top: 100px;
+  text-align: start;
   color: rgb(192, 194, 194);
 }
 

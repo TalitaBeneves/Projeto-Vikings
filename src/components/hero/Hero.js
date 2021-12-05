@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <>
       <div className="hero" to="/">
-        <h1>Vikings</h1>
+        <h2>Vikings</h2>
         <p> navegadores nórdicos que <br/>exploram - e conquistam - novos territórios nos tempos medievais.</p>
         <p>Primeiro episódio: 3 de março de 2013 <br/>
           Episódio final: 30 de dezembro de 2020 <br/>
@@ -15,7 +15,6 @@ const Hero = () => {
           Emissoras originais: Amazon Prime Video, History
           Spin-off: Vikings: Valhalla
         </p>
-        
         <div className="social">
           <ul>
             <li>

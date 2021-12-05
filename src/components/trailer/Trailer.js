@@ -13,7 +13,7 @@ const Trailer = () => {
     <h1>Trailers</h1>
     <div className="container__trailer" id="video1">
       <div className="trailer_video">
-        <video controls src={Bjorn} type='video/mp4' />
+        <video controls src={Bjorn} type='video/mp4' id="video__bjorn" />
         <video controls src={Ivar} type='video/mp4' />
         <video controls src={Floki} type='video/mp4' />
         <video controls src={Lagertha} type='video/mp4' />

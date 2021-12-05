@@ -13,3 +13,7 @@
   -o-object-fit: cover;
   object-fit: cover;
 }
+
+#video__bjorn {
+  height: 450px;
+}
