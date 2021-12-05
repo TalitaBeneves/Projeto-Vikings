@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Bjorn from '../../video/Bjorn.mp4';
-import Ivar from '../../video/Ivar.mp4';
-import Floki from '../../video/Floki.mp4';
-import Lagertha from '../../video/Lagertha.mp4';
+import Bjorn from '../../video/Bjorn.m4v';
+import Ivar from '../../video/Ivar.m4v';
+import Floki from '../../video/Floki.m4v';
+import Lagertha from '../../video/Lagertha.m4v';
 
 import './trailer.css';
 
