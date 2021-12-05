@@ -1,0 +1,32 @@
+h2{
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  background-image: url(../../img/vikings-logo.jpg);
+  align-items: center;
+  width: 100%;
+  height: 875px;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card__about {
+  width: 50rem;
+  height: 50rem;
+  font-size: 20px;
+  border-radius: 40px;
+  margin-left: 510px;
+  padding: 35px;
+  
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.text {
+  margin-top: 20px;
+  color: rgb(133, 143, 201);
+}

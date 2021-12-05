@@ -1,15 +1,10 @@
 import React from 'react';
 
-import logo from '../../img/download.png'; 
-
 import './person.css';
 
 const Person = () => {
   return (
   <>
-    <div className="logo">
-      <img src={logo} alt="logo" />
-    </div>
       <h1> PERSONAGENS </h1>
     <div className="conteiner">
     <div className="card">

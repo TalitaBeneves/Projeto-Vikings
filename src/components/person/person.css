@@ -1,13 +1,3 @@
-
-.logo img {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 130px;
-  margin-left: 46.2%;
-  margin-top: -20px;
-}
-
 .conteiner {
   display: flex;
   flex-direction: row;
