@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MdOutlineMenu, AiOutlineClose } from 'react-icons/all';
 
-import Button from '../button/Button';
+import Vikings from '../../img/logo__vikings.png';
 
 import './navbar.css';
 
@@ -15,9 +15,10 @@ function Navbar() {
   return (
   <>
     <nav className="navbar">
-      <Link to='/' className="navbar-logo">
-          VIKNGS
+      <Link to="/" onClick={closeMobileMenu}>
+        <img src={Vikings} alt="Vikings" width="180px"  />      
       </Link>
+      
       <div className="menu-icon" onClick={handleClick}>
         {click ? <AiOutlineClose/> : <MdOutlineMenu />}
       </div>
@@ -47,13 +48,7 @@ function Navbar() {
               MÍDIAS
           </Link>
         </li>
-        <li className="nav-item">
-          <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
-            Entre 
-          </Link>
-        </li>
       </ul>
-      <Button />
     </nav>
   </>
   )
