@@ -1,4 +1,35 @@
 .footer {
-  background: white;
-  height: 300px;
+  background: #444;
+  height: 11rem;
+}
+
+.social__footer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social__footer ul,
+.social__footer li,
+.social__footer a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 42.5%;
+  margin-top: 1rem;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 30px;
+  color: aqua;
+}
+
+#vikings {
+  margin-top: -3rem;
+}
+
+.text__footer {
+  text-align: center;
+  background: #444;
+  margin-top: -1rem;
 }
