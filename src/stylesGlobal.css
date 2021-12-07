@@ -10,6 +10,8 @@ body{
   font-family:  'Noto Serif', serif;
   font-weight: 500;
   background-color: rgb(34, 34, 34);  
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -19,10 +21,13 @@ body{
 
  ::-webkit-scrollbar-track {
 	background:#333;
+
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #2e9dd8;
+	background: #091820;
+  border-radius: 40px;
+
 }
 
 
@@ -36,7 +41,8 @@ body{
 }
 
 h1{
-  margin-top: 30px;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
   background-image: var(--grad-color);
   color: black;
   background-clip: text;
