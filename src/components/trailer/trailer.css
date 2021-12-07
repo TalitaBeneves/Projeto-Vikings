@@ -1,3 +1,12 @@
+.logo img {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 130px; 
+  margin-left: 46%;
+  margin-top: -30px;
+}
+
 .container__trailer {
   display: flex;
   flex-direction: row;
@@ -9,7 +18,6 @@
 .trailer_video video {
   margin: 10px;
   width: 800px;
-  /* height: ; */
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -17,3 +25,8 @@
 #video__bjorn {
   height: 450px;
 }
+
+
+/* @media screen and (max-width: ){
+  
+} */
