@@ -1,0 +1,193 @@
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 3rem;
+  align-items: center;
+}
+
+/* ********CARD GERAL******* */
+
+.card {
+  align-items: center;
+  color: var(--clr-neutral-100);
+  background-size: cover;
+  padding: 10rem 0 0;
+  margin-left: 40px;
+  margin-bottom: 3rem;
+  max-width: 35ch;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 500ms ease;
+}
+
+#floki{
+  background-image: url(../../img/floki.jpg);
+}
+
+.card:hover,
+.card:focus-within {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: var(--padding);
+  height: 320px;
+  background: linear-gradient(
+    hsl(0 0% 0% / 0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% / 1)
+  );
+}
+
+.card-title {
+  position: relative;
+  width: max-content;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: calc(var(--padding) * -1);
+  bottom: -8px;
+  width: calc(100% + var(--padding));
+  background: var(--clr-neutral-400);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+.card:hover .card-title::after,
+.card:focus-within .card-title::after {
+  transform: scaleX(1);
+}
+
+.card-body {
+  color: yellowgreen;
+  font-size: 1.1rem;
+}
+
+@media (hover) {
+  .card-content {
+   transform: translateY(65%);
+   transition: transform 500ms ease;
+  }
+  
+  .card:hover .card-content, 
+  .card:focus-within
+  .card-content {
+    transform: translateY(0);
+    transition-delay: 500ms;
+  }
+  
+  .card:focus-within .card-content {
+    transition-duration: 0ms;
+  }
+  
+  .card-content > *:not(.card-title) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+  }
+  
+  .card:hover .card-content > *:not(.card-title),
+  .card-focus-within .card-content  > *:not(.card-title) {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+  
+  .card:hover .card-content > * {
+    opacity: 1;
+    transition-delay: 1000ms;
+  }
+
+  .card-title::after {
+    transform: scaleX(0);
+  }
+}
+
+#iva {
+  background-image: url(../../img/ivar.jpg);
+}
+
+#bjorn {
+  background-image: url(../../img/bjorn.jpg);
+}
+
+#ragnar {
+  background-image: url(../../img/ragnar.jpg);
+}
+
+#lagertha {
+  background-image: url(../../img/LAGERTHA.png);
+}
+
+#athelstan {
+  background-image: url(../../img/Athelstan.jpg);
+}
+
+#rollo {
+  background-image: url(../../img/Rollo.png);
+}
+
+#harald {
+  background-image: url(../../img/KingHarald.jpg);
+}
+
+#bispo {
+  background-image: url(../../img/Bispo.jpg);
+}
+
+#siggy {
+  background-image: url(../../img/Siggy.png);
+}
+
+#aslaug {
+  background-image: url(../../img/Aslaug.png);
+}
+
+#torvi {
+  background-image: url(../../img/torvi.jpg);
+}
+
+#ubbe {
+  background-image: url(../../img/ubbe.jpg);
+}
+
+#ecbert {
+  background-image: url(../../img/ReiEcbert.jpg);
+}
+
+#vidente {
+  background-image: url(../../img/vidente.jpg);
+}
+
+/* *********BUTTON************ */
+
+.button_person {
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.button_person button{
+  width: 15rem;
+  height: 4rem;
+  font-size: 20px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 rgb(129, 7, 7);
+  background: rgb(16, 84, 116);
+  color: rgb(10, 10, 10);
+  cursor: pointer;
+  transition: ease-out 0.3s;
+}
+
+.button_person button:hover {
+  box-shadow: inset 300px 0 0 0 rgb(53, 5, 5);
+  color: rgb(2, 122, 158);
+}
