@@ -1,0 +1,30 @@
+.trailer_video_full {
+  margin: 0 0 2rem 16.33rem;
+}
+
+.trailer_video_button {
+    align-items: center;
+    text-align: center;
+  }
+  
+.trailer_video_button button {
+    margin: 30px;
+    width: 15rem;
+    height: 4rem;
+    font-size: 20px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #001f36;
+    background: rgb(16, 84, 116);
+    color: rgb(10, 10, 10);
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+  
+.trailer_video_button button:hover {
+    border: none;
+    box-shadow: inset 300px 0 0 0 #001f36;
+    color: rgb(2, 122, 158);
+  }
