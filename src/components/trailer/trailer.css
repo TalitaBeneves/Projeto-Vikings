@@ -3,30 +3,128 @@
   align-items: center;
   text-align: center;
   width: 130px; 
-  margin-left: 46%;
-  margin-top: -30px;
+  margin-left: 46.55%;
+  margin-top: -189px;
+  margin-bottom: 150px;
 }
 
-.container__trailer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 105px;
-  margin-right: 100px;
+.trailer_video {
+  margin: 0 0 3rem 16.33rem;
 }
 
-.trailer_video video {
-  margin: 10px;
-  width: 800px;
+.ifra_trai {
+  margin: 2rem 2rem 0 0;
+  width: 660px;
+  height: 385px;
   -o-object-fit: cover;
   object-fit: cover;
 }
 
-#video__bjorn {
-  height: 450px;
+.h2_custon{
+  color: rgb(119, 179, 179);
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 
-/* @media screen and (max-width: ){
+@media screen and (max-width: 1793px) {
+
+  .logo img {
+    margin-left: 46%;
+  }
+
+  .h2_custon{
+    text-align: center;
+  }
   
-} */
+  .trailer_video{
+    margin: 0 0 10rem 9rem;
+  }
+
+  .ifra_trai {
+    margin: 2rem 2rem 0 0;
+    width: 660px;
+    height: 385px;
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 1508px) {
+
+  .logo img {
+    margin-left: 46%;
+  }
+
+  .h2_custon{
+    text-align: center;
+  }
+  
+  .trailer_video{
+    margin: 2rem  0 2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 1461px) {
+
+  .logo img {
+    margin-left: 46%;
+  }
+
+  .h2_custon{
+    text-align: center;
+  }
+  
+  .trailer_video{
+    margin: 2rem  0 2rem 2%;
+  }
+}
+
+@media screen and (max-width: 411px) {
+
+  .logo img {
+    margin-left: 31.99%;
+  }
+
+  .h2_custon{
+    text-align: center;
+  }
+  
+  .ifra_trai {
+    width: 100%;
+    margin:0 ;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .logo img {
+    margin-left: 31.99%;
+  }
+
+  .h2_custon{
+    text-align: center;
+  }
+  
+  .ifra_trai {
+    width: 100%;
+    margin:0 ;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .logo img {
+    margin-left: 31.99%;
+  }
+
+  .h2_custon{
+    text-align: center;
+  }
+  
+  .ifra_trai {
+    width: 100%;
+    margin:0 ;
+  }
+}

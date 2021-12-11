@@ -1,6 +1,6 @@
 .footer {
-  background: #444;
-  height: 11rem;
+  height: 20rem;
+  background: url(../../img/bg_footer.jpg);
 }
 
 .social__footer {
@@ -16,7 +16,7 @@
   flex-direction: row;
   align-items: center;
   margin-left: 42.5%;
-  margin-top: 1rem;
+  margin-top: 3rem;
   text-align: center;
   list-style-type: none;
   text-decoration: none;
@@ -25,11 +25,105 @@
 }
 
 #vikings {
+  margin: auto 40px ;
   margin-top: -3rem;
 }
 
 .text__footer {
+  font-size: 20px;
   text-align: center;
-  background: #444;
   margin-top: -1rem;
 }
+
+
+@media screen and (max-width: 1024px) {
+  
+  .social__footer ul,
+  .social__footer li,
+  .social__footer a{
+    margin: 10px auto;
+    width: auto;
+    padding: 5px;
+  }
+
+  #vikings {
+    margin: 0 0 1.5rem 22rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  
+  .social__footer ul,
+  .social__footer li,
+  .social__footer a{
+    margin: 10px auto;
+    width: auto;
+    padding: 5px;
+  }
+
+  #vikings {
+    margin: 0 0 1.5rem 13rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  
+  .social__footer ul,
+  .social__footer li,
+  .social__footer a{
+    margin: 10px auto;
+    width: auto;
+    padding: 5px;
+  }
+
+  #vikings {
+    margin: 0 0 1.5rem 6rem;
+  }
+}
+
+@media screen and (max-width: 411px) {
+  
+  .social__footer ul,
+  .social__footer li,
+  .social__footer a{
+    margin: 10px auto;
+    width: auto;
+    padding: 5px;
+  }
+
+  #vikings {
+    margin: 0 0 1.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  
+  .social__footer ul,
+  .social__footer li,
+  .social__footer a{
+    margin: 10px auto;
+    width: auto;
+    padding: 5px;
+  }
+
+  #vikings {
+    margin: 0 0 1.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  
+  .social__footer ul,
+  .social__footer li,
+  .social__footer a{
+    margin: 10px auto;
+    width: auto;
+    padding: 5px;
+  }
+
+  #vikings {
+    margin: auto;
+  }
+}
+
+

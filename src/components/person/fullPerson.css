@@ -191,3 +191,25 @@
   box-shadow: inset 300px 0 0 0 rgb(53, 5, 5);
   color: rgb(2, 122, 158);
 }
+
+@media screen and (max-width: 411px){
+
+    .conteiner {
+      margin: 0;
+    }
+
+    .card {
+      margin: 0 0 30px 45px;
+    }
+}
+
+@media screen and (max-width: 360px){
+  
+    .conteiner {
+      margin: 0;
+    }
+
+    .card {
+      margin: 0 0 30px 25px;
+    }
+}

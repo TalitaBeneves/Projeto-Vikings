@@ -2,20 +2,27 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  margin-left: 2rem;
+  margin: auto 35px;
   align-items: center;
+}
+
+.h1_custon {
+  margin: 50px auto;
+  text-align: center;
+  background-image: var(--grad-color);
+  color: rgb(138, 87, 87);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 
 /* ********FLOKI******* */
 
-.card_floki_person {
-  /* width: 380px; */
-  align-items: center;
+.card_person {
   color: var(--clr-neutral-100);
-  background-image: url(../../img/floki.jpg);
   background-size: cover;
   padding: 10rem 0 0;
   margin-left: 40px;
@@ -26,8 +33,12 @@
   transition: transform 500ms ease;
 }
 
-.card_floki_person:hover,
-.card_floki_person:focus-within {
+#floki {
+  background-image: url(../../img/floki.jpg);
+}
+
+.card_person:hover,
+.card_person:focus-within {
   transform: scale(1.05);
 }
 
@@ -44,6 +55,7 @@
 .card-title {
   position: relative;
   width: max-content;
+  font-size: 2rem;
 }
 
 .card-title::after {
@@ -59,12 +71,12 @@
   transition: transform 500ms ease;
 }
 
-.card_floki_person:hover .card-title::after,
-.card_floki_person:focus-within .card-title::after {
+.card_person:hover .card-title::after,
+.card_person:focus-within .card-title::after {
   transform: scaleX(1);
 }
 
-.card-body {
+.card-body-person {
   color: rgb(182, 160, 160);
   font-size: 1.1rem;
 }
@@ -75,14 +87,14 @@
    transition: transform 500ms ease;
   }
   
-  .card_floki_person:hover .card-content, 
-  .card_floki_person:focus-within
+  .card_person:hover .card-content, 
+  .card_person:focus-within
   .card-content {
     transform: translateY(0);
     transition-delay: 500ms;
   }
   
-  .card_floki_person:focus-within .card-content {
+  .card_person:focus-within .card-content {
     transition-duration: 0ms;
   }
   
@@ -91,13 +103,13 @@
     transition: opacity 500ms linear;
   }
   
-  .card_floki_person:hover .card-content > *:not(.card-title),
-  .card_floki_person-focus-within .card-content  > *:not(.card-title) {
+  .card_person:hover .card-content > *:not(.card-title),
+  .card_person-focus-within .card-content  > *:not(.card-title) {
     opacity: 1;
     transition-delay: 1000ms;
   }
   
-  .card_floki_person:hover .card-content > * {
+  .card_person:hover .card-content > * {
     opacity: 1;
     transition-delay: 1000ms;
   }
@@ -107,201 +119,14 @@
   }
 }
 
-
-/* ********IVAR******* */
-
-.card_ivar_person {
-  color: var(--clr-neutral-100);
+#ivar {
   background-image: url(../../img/ivar.jpg);
-  background-size: cover;
-  padding: 10rem 0 0;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  max-width: 45ch;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  transition: transform 500ms ease;
 }
 
-.card_ivar_person:hover,
-.card_ivar_person:focus-within {
-  transform: scale(1.05);
-}
-
-.card_ivar_person:hover .card-title::after,
-.card_ivar_person:focus-within .card-title::after {
-  transform: scaleX(1);
-}
-
-
-@media (hover) {
-
-  .card_ivar_person:hover .card-content, 
-  .card_ivar_person:focus-within
-  .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  
-  .card_ivar_person:focus-within .card-content {
-    transition-duration: 0ms;
-  }
-  
-  .card_ivar_person:hover .card-content > *:not(.card-title),
-  .card_ivar_person-focus-within .card-content  > *:not(.card-title) {
-    opacity: 1;
-    transition-delay: 1000ms;
-  }
-  
-  .card_ivar_person:hover .card-content > * {
-    opacity: 1;
-    transition-delay: 1000ms;
-  }
-
-}
-/* ********BJORN******* */
-
-.card_bjorn_person {
-  color: var(--clr-neutral-100);
+#bjorn {
   background-image: url(../../img/bjorn.jpg);
-  background-size: cover;
-  padding: 10rem 0 0;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  max-width: 45ch;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  transition: transform 500ms ease;
 }
 
-.card_bjorn_person:hover,
-.card_bjorn_person:focus-within {
-  transform: scale(1.05);
-}
-
-
-.card_bjorn_person:hover .card-title::after,
-.card_bjorn_person:focus-within .card-title::after {
-  transform: scaleX(1);
-}
-
-
-@media (hover) {
-
-  .card_bjorn_person:hover .card-content, 
-  .card_bjorn_person:focus-within
-  .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  
-  .card_bjorn_person:focus-within .card-content {
-    transition-duration: 0ms;
-  }
-  
-  .card_bjorn_person:hover .card-content > *:not(.card-title),
-  .card_bjorn_person-focus-within .card-content  > *:not(.card-title) {
-    opacity: 1;
-    transition-delay: 1000ms;
-  }
-  
-  .card_bjorn_person:hover .card-content > * {
-    opacity: 1;
-    transition-delay: 1000ms;
-  }
-}
-
-
-/* ********RAGNAR******* */
-
-.card_ragnar_person {
-  color: var(--clr-neutral-100);
+#ragnar {
   background-image: url(../../img/ragnar.jpg);
-  background-size: cover;
-  padding: 10rem 0 0;
-  margin-left: 40px;
-  margin-bottom: 20px;
-  max-width: 45ch;
-  border-radius: 0.5rem;
-  overflow: hidden;
-  transition: transform 500ms ease;
-}
-
-.card_ragnar_person:hover,
-.card_ragnar_person:focus-within {
-  transform: scale(1.05);
-}
-
-.card-content {
-  padding: var(--padding);
-  background: linear-gradient(
-    hsl(0 0% 0% / 0),
-    hsl(20 0% 0% / 0.3) 20%,
-    hsl(0 0% 0% / 1)
-  );
-}
-
-.card-title {
-  position: relative;
-  width: max-content;
-}
-
-.card-title::after {
-  content: "";
-  position: absolute;
-  height: 4px;
-  left: calc(var(--padding) * -1);
-  bottom: -2;
-  width: calc(100% + var(--padding));
-  background: var(--clr-neutral-400);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 500ms ease;
-}
-
-.card_ragnar_person:hover .card-title::after,
-.card_ragnar_person:focus-within .card-title::after {
-  transform: scaleX(1);
-}
-
-.card-body {
-  color: rgb(255, 255, 255 / 0.75);
-}
-
-@media (hover) {
-  .card-content {
-   transform: translateY(65%);
-   transition: transform 500ms ease;
-  }
-  
-  .card_ragnar_person:hover .card-content, 
-  .card_ragnar_person:focus-within
-  .card-content {
-    transform: translateY(0);
-    transition-delay: 500ms;
-  }
-  
-  .card_ragnar_person:focus-within .card-content {
-    transition-duration: 0ms;
-  }
-  
-  .card-content > *:not(.card-title) {
-    opacity: 0;
-    transition: opacity 500ms linear;
-  }
-  
-  .card_ragnar_person:hover .card-content > *:not(.card-title),
-  .card_ragnar_person-focus-within .card-content  > *:not(.card-title) {
-    opacity: 1;
-    transition-delay: 1000ms;
-  }
-  
-  .card_ragnar_person:hover .card-content > * {
-    opacity: 1;
-    transition-delay: 1000ms;
-  }
-
-  .card-title::after {
-    transform: scaleX(0);
-  }
 }

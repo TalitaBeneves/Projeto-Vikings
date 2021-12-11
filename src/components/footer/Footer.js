@@ -2,7 +2,7 @@ import React from 'react';
 import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-import Vikings from '../../img/machado2.png';
+import Vikings from '../../img/logo_footer.png';
 
 import './footer.css';
 
@@ -23,9 +23,9 @@ const Footer = () => {
           </ul>
         </div>
         <Link to="/">
-        <img src={Vikings} alt="vikings" width="340px" id="vikings"/>
+          <img src={Vikings} alt="vikings" width="340px" id="vikings"/>
         </Link>
-          <p className="text__footer">©Talita Beneves</p>
+          <p className="text__footer">©Talita Beneves 2021</p>
     </div>
   );
 }

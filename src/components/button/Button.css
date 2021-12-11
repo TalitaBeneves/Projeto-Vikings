@@ -1,24 +1,26 @@
-:root {
-  --color: rgb(67, 184, 155);
+.button__person {
+  align-items: center;
+  text-align: center;
 }
 
-.btn {
-  padding: 8px 20px;
-  border-radius: 4px;
+.button__person button {
+  margin: 30px;
+  width: 15rem;
+  height: 4rem;
+  font-size: 20px;
+  font-weight: 700;
   outline: none;
   border: none;
-  font-size: 15px;
-  font-weight: bold;
-  color: #222;
-  background-color: var(--color);
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #001f36;
+  background: rgb(16, 84, 116);
+  color: rgb(10, 10, 10);
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: ease-out 0.3s;
 }
 
-.btn:hover {
-  padding: 6px 18px;
-  background-color: #444;
-  color: var(--color);
-  border-radius: 4px;
-  border: 2px solid #444;
+.button__person button:hover {
+  border: none;
+  box-shadow: inset 300px 0 0 0 #001f36;
+  color: rgb(2, 122, 158);
 }
