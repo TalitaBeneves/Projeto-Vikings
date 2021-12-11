@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Projeto-Vikings/static/css/main.c8ca85fb.chunk.css",
-    "main.js": "/Projeto-Vikings/static/js/main.4d03181d.chunk.js",
-    "main.js.map": "/Projeto-Vikings/static/js/main.4d03181d.chunk.js.map",
-    "runtime-main.js": "/Projeto-Vikings/static/js/runtime-main.808fd967.js",
-    "runtime-main.js.map": "/Projeto-Vikings/static/js/runtime-main.808fd967.js.map",
-    "static/js/2.77ad59cb.chunk.js": "/Projeto-Vikings/static/js/2.77ad59cb.chunk.js",
-    "static/js/2.77ad59cb.chunk.js.map": "/Projeto-Vikings/static/js/2.77ad59cb.chunk.js.map",
-    "index.html": "/Projeto-Vikings/index.html",
-    "static/css/main.c8ca85fb.chunk.css.map": "/Projeto-Vikings/static/css/main.c8ca85fb.chunk.css.map",
-    "static/js/2.77ad59cb.chunk.js.LICENSE.txt": "/Projeto-Vikings/static/js/2.77ad59cb.chunk.js.LICENSE.txt",
-    "static/media/fullPerson.css": "/Projeto-Vikings/static/media/vidente.99c757a6.jpg",
-    "static/media/footer.css": "/Projeto-Vikings/static/media/bg_footer.3c72ec13.jpg",
-    "static/media/about.css": "/Projeto-Vikings/static/media/bg_fundo_red.b7fd1f4d.jpg",
-    "static/media/FullAbout.css": "/Projeto-Vikings/static/media/fundo.f8f4c742.jpg",
-    "static/media/logo__vikings.a8a57596.png": "/Projeto-Vikings/static/media/logo__vikings.a8a57596.png",
-    "static/media/logo_footer.1a72b7ea.png": "/Projeto-Vikings/static/media/logo_footer.1a72b7ea.png",
-    "static/media/hero.css": "/Projeto-Vikings/static/media/vk-4k.a880c5fb.jpg"
+    "main.css": "/Vikings/static/css/main.ff22d48d.chunk.css",
+    "main.js": "/Vikings/static/js/main.4d03181d.chunk.js",
+    "main.js.map": "/Vikings/static/js/main.4d03181d.chunk.js.map",
+    "runtime-main.js": "/Vikings/static/js/runtime-main.d44b2fc5.js",
+    "runtime-main.js.map": "/Vikings/static/js/runtime-main.d44b2fc5.js.map",
+    "static/js/2.77ad59cb.chunk.js": "/Vikings/static/js/2.77ad59cb.chunk.js",
+    "static/js/2.77ad59cb.chunk.js.map": "/Vikings/static/js/2.77ad59cb.chunk.js.map",
+    "index.html": "/Vikings/index.html",
+    "static/css/main.ff22d48d.chunk.css.map": "/Vikings/static/css/main.ff22d48d.chunk.css.map",
+    "static/js/2.77ad59cb.chunk.js.LICENSE.txt": "/Vikings/static/js/2.77ad59cb.chunk.js.LICENSE.txt",
+    "static/media/fullPerson.css": "/Vikings/static/media/vidente.99c757a6.jpg",
+    "static/media/footer.css": "/Vikings/static/media/bg_footer.3c72ec13.jpg",
+    "static/media/about.css": "/Vikings/static/media/bg_fundo_red.b7fd1f4d.jpg",
+    "static/media/FullAbout.css": "/Vikings/static/media/fundo.f8f4c742.jpg",
+    "static/media/logo__vikings.a8a57596.png": "/Vikings/static/media/logo__vikings.a8a57596.png",
+    "static/media/logo_footer.1a72b7ea.png": "/Vikings/static/media/logo_footer.1a72b7ea.png",
+    "static/media/hero.css": "/Vikings/static/media/vk-4k.a880c5fb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.808fd967.js",
+    "static/js/runtime-main.d44b2fc5.js",
     "static/js/2.77ad59cb.chunk.js",
-    "static/css/main.c8ca85fb.chunk.css",
+    "static/css/main.ff22d48d.chunk.css",
     "static/js/main.4d03181d.chunk.js"
   ]
 }
