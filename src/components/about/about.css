@@ -10,6 +10,19 @@
   margin-bottom: 30px;
 }
 
+.logo {
+  text-align: center;
+  align-items: center;
+  margin-left: 46.55%;
+}
+
+.logo img {
+  display: flex;
+  width: 130px; 
+  margin-top: -18px;
+  margin-bottom: -20px;
+}
+
 .card__about {
   display: flex;
   flex-direction: column;
@@ -72,5 +85,55 @@
     .card__about {
       font-size:5px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .logo {
+    margin-right: 4%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .logo {
+    margin-right: 8%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+
+  .logo {
+    margin-right: 14%;
+  }
+}
+
+@media screen and (max-width: 411px) {
+
+  .logo {
+    margin-left: 6%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+
+  .logo {
+    margin-left: 6%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+
+  .logo {
+    margin-left: 2%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .logo {
+    margin-top: 10px;
+    margin-left: 2%;
+  }
 }
 

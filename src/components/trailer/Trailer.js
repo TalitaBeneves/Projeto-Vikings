@@ -2,16 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { BiCameraMovie, BiMoviePlay } from 'react-icons/bi';
 
-import logo from "../../img/download.png";
 
 import './trailer.css';
 
 const Trailer = () => {
   return (
     <>
-    <div className="logo">
-    <img  src={logo} alt="logo"/>
-    </div>
     <h2 className="h2_custon">Trailers <br/> <BiCameraMovie /> <BiMoviePlay /></h2>
     <div>
       <div className="trailer_video">

@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from "../../img/download.png";
+
 import './about.css';
 
 const About = () => {
   return (
     <>
+     
        <h1 className="h1_sobre">SOBRE</h1> <br />
     
       <div className="container">
@@ -23,11 +26,16 @@ const About = () => {
           </p>
         </div>
       </div>  
-        <div className="button__person">
+      
+      <div className="logo">
+       <img  src={logo} alt="logo"/>
+      </div>
+
+      <div className="button__person">
         <Link to="/sobre">
           <button>Saiba Mais</button>
         </Link> 
-    </div>
+      </div>
     </>
   );
 }

@@ -1,13 +1,3 @@
-.logo img {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  width: 130px; 
-  margin-left: 46.55%;
-  margin-top: -189px;
-  margin-bottom: 150px;
-}
-
 .trailer_video {
   margin: 0 0 3rem 16.33rem;
 }
@@ -21,7 +11,7 @@
 }
 
 .h2_custon{
-  color: rgb(119, 179, 179);
+  color: #ea284b;
   margin-top: 50px;
   text-align: center;
   font-size: 2.5rem;
