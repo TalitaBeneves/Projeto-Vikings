@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Vikings/static/css/main.ff22d48d.chunk.css",
-    "main.js": "/Vikings/static/js/main.02ce043c.chunk.js",
-    "main.js.map": "/Vikings/static/js/main.02ce043c.chunk.js.map",
+    "main.css": "/Vikings/static/css/main.0d4ed07f.chunk.css",
+    "main.js": "/Vikings/static/js/main.bf63fcad.chunk.js",
+    "main.js.map": "/Vikings/static/js/main.bf63fcad.chunk.js.map",
     "runtime-main.js": "/Vikings/static/js/runtime-main.d44b2fc5.js",
     "runtime-main.js.map": "/Vikings/static/js/runtime-main.d44b2fc5.js.map",
     "static/js/2.0b2705e5.chunk.js": "/Vikings/static/js/2.0b2705e5.chunk.js",
     "static/js/2.0b2705e5.chunk.js.map": "/Vikings/static/js/2.0b2705e5.chunk.js.map",
     "index.html": "/Vikings/index.html",
-    "static/css/main.ff22d48d.chunk.css.map": "/Vikings/static/css/main.ff22d48d.chunk.css.map",
+    "static/css/main.0d4ed07f.chunk.css.map": "/Vikings/static/css/main.0d4ed07f.chunk.css.map",
     "static/js/2.0b2705e5.chunk.js.LICENSE.txt": "/Vikings/static/js/2.0b2705e5.chunk.js.LICENSE.txt",
     "static/media/fullPerson.css": "/Vikings/static/media/vidente.99c757a6.jpg",
     "static/media/footer.css": "/Vikings/static/media/bg_footer.3c72ec13.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d44b2fc5.js",
     "static/js/2.0b2705e5.chunk.js",
-    "static/css/main.ff22d48d.chunk.css",
-    "static/js/main.02ce043c.chunk.js"
+    "static/css/main.0d4ed07f.chunk.css",
+    "static/js/main.bf63fcad.chunk.js"
   ]
 }
